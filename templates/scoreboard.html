@@ -1,0 +1,32 @@
+{% extends 'base.html'%}
+
+{% block content %}
+
+  <div class="row">
+    
+    <div class="col-md-8 m-auto">
+      <h2 class="page-title">Scoreboard</h2>
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Rank</th>
+                    <th>Username</th>
+                    <th>Score</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for i in range(10) %}
+                    <tr>
+                        <th scope="row"> {{ i + 1 }}</th>
+                        <td> {{ usernames_and_scores[i][0] }} </td>
+                        <td> {{ usernames_and_scores[i][1] }} </td>
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+
+    
+    
+  </div>
+{% endblock %}

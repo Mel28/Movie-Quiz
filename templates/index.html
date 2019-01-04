@@ -1,0 +1,24 @@
+{% extends 'base.html'%}
+
+{% block content %}
+        
+  <div class="row">
+    <div class="col-md-7 m-auto ">
+      <img class="p-4" src="../static/images/question.jpeg"></img>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-6 m-auto p-4 m-3">
+      <p>Welcome to Cult Classics Movie Quiz! <br />This quiz will test your knowledge of some of the most famouse cult classic films around <br />When you're ready, click on the 'Begin' button below. You can also view the scoreboard here.</p>
+    </div>
+  </div>      
+  <div class="row">   
+      <div class="m-auto d-flex flex-row justify-content-around align-items-center mt-4">
+        <form method="POST">
+          <input type="text" id="username" name="username" placeholder="Username"><button>Begin</button>
+        </form>
+      </div>
+  </div>
+  
+{% endblock %}
