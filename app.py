@@ -313,6 +313,7 @@ def quiz10(username, score):
 @app.route('/scoreboard')
 def scoreboard():
     usernames_and_scores = get_scores()
+    print(usernames_and_scores)
     return render_template("scoreboard.html", usernames_and_scores=usernames_and_scores)
 
 
