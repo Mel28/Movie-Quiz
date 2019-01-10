@@ -8,11 +8,11 @@
     height: 100%;
     border-radius: 5%; }
     
-body {
+body p{
     font-family: Roboto, sans-serif;
-    font-weight: 300;
-    background-color: #525252;
+    font-weight: 700;
     color: #555555;
+    font-size: medium;
 }
     
 .page-title {

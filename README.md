@@ -10,5 +10,6 @@
 <li> created templates folder containing
 <li> Used start bootstrap clean blog theme, in terminal cd into static folder, use wget command to load clean blog files. Use unzip gh-pages.zip to unzip file. </li>
 <li>Added link to head of html</li>
+<li> Updated jinja statement in scoreboard.html to display the top five scores</li>
 
 </ul>
