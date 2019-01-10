@@ -11,5 +11,8 @@
 <li> Used start bootstrap clean blog theme, in terminal cd into static folder, use wget command to load clean blog files. Use unzip gh-pages.zip to unzip file. </li>
 <li>Added link to head of html</li>
 <li> Updated jinja statement in scoreboard.html to display the top five scores</li>
+<li> Created Github repository and pushed project to Github </li>
+<li> Pushed app to Heroku </li>
+<li> created Proc file using the following command: 'echo web: python app.py > Procfile' </li>
 
 </ul>
