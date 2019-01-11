@@ -13,6 +13,9 @@
 <li> Updated jinja statement in scoreboard.html to display the top five scores</li>
 <li> Created Github repository and pushed project to Github </li>
 <li> Pushed app to Heroku </li>
-<li> created Proc file using the following command: 'echo web: python app.py > Procfile' </li>
+<li> created Procfile using the following command: 'echo web: python app.py > Procfile' </li>
 
 </ul>
+
+<h3> Link to app </h3>
+<p> https://classic-movie-quiz.herokuapp.com/ </p>
