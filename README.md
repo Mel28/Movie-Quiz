@@ -26,3 +26,6 @@
 <p> https://classic-movie-quiz.herokuapp.com/ </p>
  <h3> Test Driven Development</h3>
  <p> I Imported a previously created byotest</p>
+ 
+ <h3> Acknowledgements </h3>
+ <li> I would like to thank the tutors at the code institute for guiding me and supporting me </li>
